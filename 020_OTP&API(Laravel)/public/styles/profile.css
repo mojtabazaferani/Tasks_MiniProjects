@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+body {
+background-color: #edf2f7;
+}
+
+.header {
+display: flex;
+background-color: #654fef;
+justify-content: space-between;
+align-items: center;
+}
+
+.header h1 {
+font-size: 1.3rem;
+font-weight: bold;
+color: #fff;
+padding-left: 5px;
+}
+
+.header nav nav {
+margin-right: 20px;
+}
+
+.header ul {
+display: flex;
+list-style-type: none;
+}
+
+.header a {
+padding: 8px;
+text-decoration: none;
+font-size: 1rem;
+font-weight: bold;
+color: #fff;
+transition: all 0.15s ease-in;
+}
+.header a:hover {
+color: rgb(0, 255, 255);
+}
+
+.profile-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 160px;
+    height: 160px;
+    border-radius: 7px;
+    transition: 0.4s;
+    border: 3px black solid;
+}
+
+.image:hover{
+    transform: scale(1.2, 1.1);
+}
+
+.pro-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit{
+    background-color: rgb(70, 203, 70);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.logout{
+    /* background-color: rgb(181, 25, 25); */
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+

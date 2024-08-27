@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+body {
+/* background-color: #edf2f7; */
+/* background-color: #21156c; */
+background-color: #9DF9EF;
+
+}
+
+.header {
+    display: flex;
+    /* background-color: #654fef; */
+    /* background-color: #21156c; */
+    background-color: #0049B7;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 88%;
+    margin-left: 90px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    }
+
+.header h1 {
+font-size: 1.3rem;
+font-weight: bold;
+color: #fff;
+padding-left: 5px;
+margin-left: 8px;
+}
+
+.header nav nav {
+margin-right: 20px;
+}
+
+.header ul {
+display: flex;
+list-style-type: none;
+}
+
+.header a {
+padding: 8px;
+text-decoration: none;
+font-size: 1rem;
+font-weight: bold;
+color: #fff;
+transition: all 0.15s ease-in;
+}
+.header a:hover {
+color: rgb(0, 255, 255);
+}
+
+.icon-add{
+    color: white;
+    transition: all 0.15s ease-in;
+    width: 14px;
+    height: 14px;
+}
+
+.icon-add:hover{
+    color: aqua;
+}
+
+.icon-add1{
+    color: white;
+    transition: all 0.15s ease-in;
+    width: 14px;
+    height: 14px;
+    /* margin-right: 15px; */
+    position: relative;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    top: 38px;
+}
+
+.profile-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 180px;
+    height: 200px;
+    border-radius: 7px;
+    transition: 0.4s;
+    border: 0.1px solid #232323
+}
+
+.image:hover{
+    transform: scale(1.2, 1.1);
+}
+
+.pro-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit{
+    background-color: #0049B7;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.logout{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}

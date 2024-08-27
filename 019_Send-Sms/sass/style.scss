@@ -1,0 +1,128 @@
+@import "variables";
+@import "mixin";
+
+*{
+    @include overall();
+}
+body{
+    background-color: $bgColor;
+}
+
+.header{
+    display: flex;
+    background-image: url(/amuzesh_html/images/THDjo4ZFchqxtbIyXcKvoQxZXMFh9nHRnzNzHgtm.webp);
+    justify-content: space-between;
+    align-items: center;
+    
+    h1{
+        @include textStyle(1.3rem, bold, $secondaryColor);
+        padding-left: 5px;
+    }
+
+    nav{
+        nav{
+            margin-right: 20px;
+        }
+    }
+
+    ul{
+        display: flex;
+        list-style-type: none;
+    }
+
+    a{
+        padding: 8px;
+        text-decoration: none;
+        @include textStyle(1rem, bold, $secondaryColor);
+        transition: all .15s ease-in;
+
+        &:hover{
+            color: rgb(0, 255, 255);
+        }
+    }
+}
+
+.burger{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+
+    span{
+        display: inline-block;
+        height: 3px;
+        width: 20px;
+        margin: 2px;
+        background-color: white;
+        border-radius: 3px;
+        &:hover{
+            background-color: aqua;
+        }
+    }
+}
+
+.h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $textColor;
+    background-color: $primaryColor;
+    margin: 0 8rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $textColor;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: $primaryColor;
+    flex-direction: column;
+    color: $textColor;
+    margin: 0 8rem;
+    border-radius: 5px;
+    width: auto;
+
+    .sub{
+        padding: 5px;
+        border-radius: 5px;
+        color: $textColor;
+        transition: all .15s ease-in;
+
+        &:hover{
+            cursor: pointer;
+            background-color: aqua;
+            transform: scale(1.2, 1.1);
+        }
+
+    }
+
+    .input{
+        padding: 5px;
+        border-radius: 5px;
+        transition: all .15s ease-in;
+        margin-top: 3px;
+
+        &:hover{
+            cursor: pointer;
+            background-color: aqua;
+            transform: scale(1.2, 1.1);
+        }
+    }
+
+    .error{
+        color: red;
+        font-size: smaller;
+    }
+
+    .successful{
+        color: green;
+        font-size: smaller;
+    }
+}

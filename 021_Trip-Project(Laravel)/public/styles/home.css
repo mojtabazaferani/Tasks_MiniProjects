@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+body {
+/* background-color: #edf2f7; */
+/* background-color: #21156c; */
+background-color: #9DF9EF;
+color: white;
+
+}
+
+.header {
+display: flex;
+/* background-color: #654fef; */
+/* background-color: #21156c; */
+background-color: #0049B7;
+justify-content: space-between;
+align-items: center;
+height: 70px;
+width: 88%;
+margin-left: 90px;
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+}
+
+.header h1 {
+font-size: 1.3rem;
+font-weight: bold;
+color: #fff;
+padding-left: 5px;
+margin-left: 8px;
+}
+
+.header nav nav {
+margin-right: 20px;
+}
+
+.header ul {
+display: flex;
+list-style-type: none;
+}
+
+.header a {
+padding: 8px;
+text-decoration: none;
+font-size: 1rem;
+font-weight: bold;
+color: #fff;
+transition: all 0.15s ease-in;
+}
+.header a:hover {
+color: rgb(0, 255, 255);
+}
+
+.image-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.navbar {
+display: flex;
+align-items: center;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 80%;
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 3rem;
+}
+
+.trips{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #e7e7e7; */
+    /* background-color: #00DDFF; */
+    background-color: #0049B7;
+    margin-right: 5px;
+    border-radius: 8px;
+    height: auto;
+    margin-right: 50px;
+    /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+    border: 0.1px solid #232323
+}
+
+.title-trip{
+    margin-top: 3px;
+}
+
+.tozih{
+    text-align: right;
+    margin-top: 5px;
+    font-size: larger;
+}
+
+.image-trip{
+    width: 210px;
+    height: 210px;
+    padding: 8px;
+    transition: 0.4s;
+}
+
+.image-trip:hover{
+    transform: scale(1.2, 1.1);
+}
